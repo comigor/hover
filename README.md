@@ -13,7 +13,7 @@ Hover uses [Go](https://golang.org) to build your Flutter application to desktop
 Then install hover like this:
 
 ```bash
-go get -u github.com/go-flutter-desktop/hover
+go get -u github.com/comigor/hover
 ```
 
 If you get this error: `cmdApp.ProcessState.ExitCode undefined (type *os.ProcessState has no field or method ExitCode)`,
@@ -53,7 +53,7 @@ hover init github.com/my-organization/simpleApplication
 This creates the directory `desktop` and adds boilerplate files such as Go code and a default logo.
 
 Make sure you have the following
-[main_desktop.dart](https://github.com/go-flutter-desktop/examples/blob/5508a59ff4916fca9c05dfde4929d8848fd2a947/pointer_demo/lib/main_desktop.dart)
+[main_desktop.dart](https://github.com/comigor/examples/blob/5508a59ff4916fca9c05dfde4929d8848fd2a947/pointer_demo/lib/main_desktop.dart)
 in the root librairie of your application.  
 It's the following code before `runApp(..)` that makes Flutter run on other platforms:
 ```dart
@@ -61,7 +61,7 @@ debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;
 ```
 
 
-Optionally, you may add [plugins](https://github.com/go-flutter-desktop/plugins) to `desktop/cmd/options.go`  
+Optionally, you may add [plugins](https://github.com/comigor/plugins) to `desktop/cmd/options.go`
 Optionally, change the logo in `desktop/assets/logo.png`, which is used as icon for the window.
 
 

@@ -12,7 +12,7 @@ import (
 	"github.com/otiai10/copy"
 	"github.com/spf13/cobra"
 
-	"github.com/go-flutter-desktop/hover/internal/enginecache"
+	"github.com/comigor/hover/internal/enginecache"
 )
 
 var dotSlash = string([]byte{'.', filepath.Separator})
